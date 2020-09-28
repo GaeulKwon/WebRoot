@@ -1,0 +1,14 @@
+body {
+    font-family: sans-serif !important;
+    text-align: center;
+}
+
+div {
+    border: dotted;
+    margin: 15px 50px;
+    background-color: lightgrey;
+}
+
+h1 {
+    color: darkolivegreen;
+}
