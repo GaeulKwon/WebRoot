@@ -1,14 +1,28 @@
-body {
-    font-family: sans-serif !important;
-    text-align: center;
-}
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+  }
 
-div {
-    border: dotted;
-    margin: 15px 50px;
-    background-color: lightgrey;
+body {
+    background-color: lightgray;
+    text-align: center;
 }
 
 h1 {
     color: darkolivegreen;
+}
+
+p {
+    font-size: 17px;
+}
+.container-fluid {
+    padding: 25px;
+}
+
+.col-sm-4, .col-sm-8 {
+    padding:  25px;
+}
+
+a {
+    color: darkslateblue;
+    font-size: larger;
 }

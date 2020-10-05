@@ -3,27 +3,38 @@
 	<head>
 		<title>May Gaeul Kwon</title>
 		<meta charset="utf-8" />
-		<meta name="keywords" content="search terms" />
-		<meta name="description" content="paragraph that is 
-		displayed along with the link in the search results" />
+		<meta name="keywords" content="bootstrap website" />
+		<meta name="description" content="May Kwon's first bootstrap website" />
 		<meta name="author" content="may" />
 		<meta name="viewport" content="width=device-width, initial=scale=1" />
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 
 	</head>
 	
 	<body>
-		<div>
-			<img src="img/profilepicture.jpg" class="img-rounded" alt="Profile Picture" width="400" height="525" />
-			<h1>May Gaeul Kwon</h1>
-			<p>Hello, my name is May. I have my AA degree in Business Intelligence 
-				- Business Analyst concentration. </p>
-			<p>Currently, I am pursuing Bachelor's degree in Business Intelligence 
-				- <mark>Application Development</mark>. </p>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-4" style="background-color: rgb(248, 201, 208);">
+					<img src="img/profilepicture.jpg" class="img-rounded" alt="Profile Picture" width="50" height="50" />
+					<h2>May Gaeul Kwon</h2>
+					<h4>Application Developer</h4>
+				</div>
+				
+				<div class="col-sm-8" style="background-color: rgb(235, 158, 158);">	
+					<p>Hello, my name is May. <br />
+					I have my AA degree in Business Intelligence - Business Analyst concentration.
+					Currently, I am pursuing Bachelor's degree in Business Intelligence 
+					- <mark>Application Development</mark>. </p> <br />
+					<p>This website contains useful resources for web application development.</p>
+				</div>
+			</div>
+				<br /><p><a href="html/webresources.html">Web Resources</a></p>
 		</div>
 	</body>
 </html>
